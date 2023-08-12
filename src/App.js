@@ -21,17 +21,6 @@ function App() {
   }
 return (
   <>
-    {/* <BrowserRouter>
-      <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode} />
-      <div className="container my-4" mode={mode}>
-        <Routes>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/"element={<TextForm heading="Enter the text to analyze below:" mode={mode}/>} ></Route>
-        </Routes>
-      </div>
-    </BrowserRouter>
-  </>
-)}; */}
       <Navbar title="TextUtils"mode={mode} toggleMode={toggleMode} />
       <div className="container my-4" mode={mode}>
           < TextForm heading="Enter the text to analyze below:" mode={mode}/>
